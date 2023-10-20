@@ -15,7 +15,9 @@ dependencies {
     // unit tests are OK with this version
     // implementation 'org.bouncycastle:bcpkix-jdk15on:1.70'
     // unit tests fail with this version
-    implementation 'org.bouncycastle:bcpkix-jdk18on:1.71'
+    // implementation 'org.bouncycastle:bcpkix-jdk18on:1.71'
+    // unit tests also fail with the latest version
+    implementation 'org.bouncycastle:bcpkix-jdk18on:1.76'
 }
 
 application {
